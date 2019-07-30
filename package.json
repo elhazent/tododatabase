@@ -1,0 +1,23 @@
+{
+  "name": "dabase",
+  "version": "1.0.0",
+  "description": "Fake rest api",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elhazent/tododatabase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elhazent/tododatabase/issues"
+  },
+  "homepage": "https://github.com/elhazent/tododatabase#readme",
+  "dependencies": {
+    "json-server": "^0.15.0",
+    "lowdb": "^1.0.0"
+  }
+}
